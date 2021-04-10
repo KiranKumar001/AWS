@@ -97,6 +97,14 @@ To delete the sample application that you created, use the AWS CLI. Assuming you
 aws cloudformation delete-stack --stack-name my-serverless-app
 ```
 
+## CI/CD 
+
+via Jenkins
+https://aws.amazon.com/blogs/compute/building-a-jenkins-pipeline-with-aws-sam/
+
+via GitHub Actions examples on web
+https://towardsdatascience.com/modern-ci-cd-pipeline-git-actions-with-aws-lambda-serverless-python-functions-and-api-gateway-9ef20b3ef64a
+
 ## Resources
 
 See the [AWS SAM developer guide](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html) for an introduction to SAM specification, the SAM CLI, and serverless application concepts.
